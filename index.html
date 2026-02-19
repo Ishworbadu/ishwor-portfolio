@@ -1,10 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Ishwor Badu</title>
+    <meta charset="UTF-8">
+    <title>Ishwor Badu | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="font-family: Arial; text-align:center; margin-top:100px;">
-  <h1>Hello, I am Ishwor 👋</h1>
-  <p>This is my first website hosted on Vercel with .com.np domain.</p>
+<body>
+
+    <header>
+        <nav>
+            <h1>Ishwor Badu</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Computer Engineering Student</h2>
+            <p>Building ML systems, Web Apps & Scalable Software</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a final-year Computer Engineering student focused on 
+            Machine Learning, Data Science, and Backend Development.
+            Currently building a NEPSE stock forecasting system using 
+            LSTM, ARIMA, Prophet, and XGBoost.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>NEPSE Stock Forecasting System</h3>
+            <p>
+                Time-series prediction system with feature engineering,
+                model comparison (LSTM, ARIMA, Prophet, XGBoost),
+                and evaluation using RMSE & MAE.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>More Projects Coming Soon</h3>
+            <p>Stay tuned...</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Python</li>
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: ishwor@example.com</p>
+        <p>GitHub: github.com/yourusername</p>
+        <p>LinkedIn: linkedin.com/in/yourprofile</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Ishwor Badu. All rights reserved.</p>
+    </footer>
+
+<script src="script.js"></script>
 </body>
 </html>
